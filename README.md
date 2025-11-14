@@ -1,6 +1,12 @@
 # ActividadClaseProgramaci-nB-sica\_Nicol-sMiguelRodr-guez
 
-Este es el repositorio Git para la actividad/actividades de las clases de programación básica.
+#include <stdio.h>
 
-Esta es la modificación de mi fichero de clase
+int main ()
+{
 
+	printf("Hola Mundo, Hello World\n"); 
+										
+
+	return 0;
+}
