@@ -14,7 +14,7 @@ int main ()
     {
       //Implantación del número.
       
-      printf("Tú número es %d :" , userNumber);
+      printf("Introduce un número entre definido entre 1 y 10:\n ");
       scanf("%d", &userNumber);
 
 
