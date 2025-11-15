@@ -1,12 +1,7 @@
 # ActividadClaseProgramaci-nB-sica\_Nicol-sMiguelRodr-guez
 
-#include <stdio.h>
 
-int main ()
-{
+Esto es el trabajo de Clase
 
-	printf("Hola Mundo, Hello World\n"); 
-										
+Se han realizado diferentes modificaciones y se ha añadido un programa en C propio para la adivinación de un número programado en la máquina.
 
-	return 0;
-}
