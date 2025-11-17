@@ -1,11 +1,7 @@
 # ActividadClaseProgramaci-nB-sica\_Nicol-sMiguelRodr-guez
 
 
-Esto es el trabajo de Clase
+Esto es la primera actividad para clase de fundamentos de Programación.
+En esta actividad realizaré diferentes movimientos que dejaré registrados en la plataforma como son movimientos tipo PULL, PUSH, CLONE, ADD y COMMIT de github.
 
-Este primer archivo tipo README.md junto con su primera edición es la edición tipo PUSH del mismo archivo.
-
-Se han realizado diferentes modificaciones y se ha añadido un programa en C propio para la adivinación de un número programado en la máquina.
-
-Esta es la edición tipo GIT PULL para el proyecto de clase.
- Ejemplo
+Para la parte 3 de la actividad he realizado un código que trata de adivinar un número que la máquina ya conoce de manera preestablecida en el código comprendido entre el 1 y el 10.
