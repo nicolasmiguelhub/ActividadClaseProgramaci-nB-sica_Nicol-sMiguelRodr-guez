@@ -54,7 +54,8 @@ void ColocacionBarcosJ1(char tableroColocacion[12][12])
  int _N2 = 2;
  int _N3 = 2;
  
- //Para el Struct fui ayudado con un poco de IA debido a que no sabía como implementarlo correctamente. Busqué la utilidad de este y como se debe implementar en un código.
+ //Para el Struct fui ayudado con un poco de IA debido a que no sabía como implementarlo correctamente. Busqué la utilidad de este y como se debe implementar en un código. También pedí ejemplos para tener una idea de como poder implementarlo en el código.
+
  struct Barco
 {
     int tamaño;
@@ -69,6 +70,9 @@ void ColocacionBarcosJ1(char tableroColocacion[12][12])
     do
     {
         posicionValida = 1;
+
+        //Para hacer el bucle de colocación de los barcos (es decir, para no tener que escribir barco por barco el código a base de If's, también me apoyé en la IA de la misma forma que con el Struckt, pedí ejemplos y vi como se implementaban para poder meterlo de manera correcta y ahorrar tiempo en código ya que,
+        //me pasé varias horas haciendolo barco a barco y al final resultó en un código de 600 líneas y que no daba resultados por culpa del int de posicionValida ya que lo estaba colocando de manera inadecuada.
 
         printf("Colocando el barco de tamaño %d \n", barcos[b].tamaño );
 
@@ -279,6 +283,5 @@ int main ()
         printf("Instrucción no valida, lea las selecciones y pruebe con los números de estas");
      }
     } while (menubutton !=3);
-     
 
 }
